@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+
+# personal / non-public working files
+20260818-desktop-recording-cleaned.txt

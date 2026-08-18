@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #171717;
+  --color-ink-soft: #5c5c5c;
+  --color-ink-faint: #9a9a9a;
+  --color-rule: #e6e6e6;
+  --color-accent: #2451c4;
+
+  --font-jp: "Shippori Mincho", serif;
+  --font-display: "Fraunces", serif;
+  --font-meta: "Archivo", sans-serif;
+
+  --breakpoint-split: 640px;
+}
+
+body {
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+}
+
+.prose-body :where(p) {
+  margin: 0 0 1.4em;
+  color: var(--color-ink-soft);
+}
+.prose-body :where(p):last-child {
+  margin-bottom: 0;
+}
+.prose-body :where(strong) {
+  color: var(--color-ink);
+  font-weight: 700;
+}
+
+.job-body :where(p) {
+  margin: 18px 0 0;
+  color: var(--color-ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
