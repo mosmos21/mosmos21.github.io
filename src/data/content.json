@@ -14,16 +14,16 @@
   },
   "about": [
     {
-      "ja": "株式会社ユニリタでキャリアをスタートし、自社BIツールのUI設計からフロントエンド、サーバサイドまでを一人で担当。設計から実装まで通しでやり切るスタイルの原点になりました。",
-      "en": "Started my career at Unirita, where I owned everything from UI design to frontend and backend implementation for an in-house BI tool — the origin of my end-to-end approach to building software."
+      "ja": "キャリアの始まりは、自社 BI ツールの UI 設計からフロントエンド、サーバサイドまでを一人で担当したこと。設計から実装まで通しでやり切るスタイルは、ここが原点になっています。",
+      "en": "My career began by owning everything from UI design to frontend and backend implementation for an in-house BI tool — the origin of my end-to-end approach to building software."
     },
     {
-      "ja": "その後ジラフでは「ヒカカク!」「Peing -質問箱-」の開発に従事。質問箱モバイルアプリでは TypeScript・ReactNative への全面移行をリードし、<strong>技術的負債を計画的に解消しながら機能を伸ばす</strong>経験を積みました。",
-      "en": "At Jiraffe, I worked on \"Hikakaku!\" and \"Peing (Question Box).\" I led the migration of the Question Box mobile app to TypeScript and React Native, gaining experience in <strong>resolving technical debt deliberately while still shipping new features</strong>."
+      "ja": "その後は複数の toC サービス開発に従事し、モバイルアプリの TypeScript・ReactNative への全面移行をリード。技術的負債を計画的に解消しながら機能を伸ばす経験を積みました。",
+      "en": "I then worked across several consumer-facing services, leading a mobile app's migration to TypeScript and React Native — experience in resolving technical debt deliberately while still shipping new features."
     },
     {
-      "ja": "現在は READYFOR で、支援者・実行者向け機能の設計から、マイクロフロントエンド化やスキーマ駆動のコード自動生成基盤の構築まで担当。<strong>仕組みを作って再現性を高める</strong>ことに関心があります。",
-      "en": "Now at READYFOR, I work across supporter- and project-owner-facing features, microfrontend architecture, and schema-driven code generation. I'm drawn to <strong>building systems that make good outcomes repeatable</strong>."
+      "ja": "現在はクラウドファンディングプラットフォームでテックリードを務め、機能設計からアーキテクチャ、開発体制づくりまでプロダクト全体を横断してリード。近年は AI コーディングエージェントの活用にも力を入れ、仕組みを作ってチームの開発生産性を高めることに関心があります。",
+      "en": "Now, as tech lead at a crowdfunding platform, I lead across the product — from feature design and architecture to how the team builds. More recently I've been focused on adopting AI coding agents, and I'm drawn to building systems that raise the team's development productivity."
     }
   ],
   "stack": [
