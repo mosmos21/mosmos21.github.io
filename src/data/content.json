@@ -45,7 +45,8 @@
     {
       "category": "Backend",
       "items": [
-        "Ruby / Ruby on Rails"
+        "Ruby / Ruby on Rails",
+        "TypeScript / Hono"
       ]
     },
     {
