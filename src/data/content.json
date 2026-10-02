@@ -1,7 +1,10 @@
 {
   "meta": {
-    "title": { "ja": "橋本尚儒 — Product Engineer", "en": "Takahito Hashimoto — Product Engineer" },
-    "description": "橋本尚儒 (Takahito Hashimoto) のポートフォリオ。READYFOR株式会社でプロダクトエンジニアとして、クラウドファンディングプラットフォームの設計・開発をリード。"
+    "title": {
+      "ja": "橋本尚儒 — Tech Lead / Product Engineer",
+      "en": "Takahito Hashimoto — Tech Lead / Product Engineer"
+    },
+    "description": "橋本尚儒 (Takahito Hashimoto) のポートフォリオ。READYFOR株式会社のテックリードとして、クラウドファンディングプラットフォームの設計・開発と、AI コーディングエージェントを前提にした開発フローづくりをリード。"
   },
   "links": {
     "email": "contact@mosmos21.net",
@@ -9,43 +12,89 @@
     "x": "https://x.com/mosmos_21"
   },
   "hero": {
-    "role": { "ja": "プロダクトエンジニア", "en": "Product Engineer" },
-    "name": { "ja": "橋本尚儒 / Takahito Hashimoto", "en": "Takahito Hashimoto" }
+    "role": {
+      "ja": "テックリード",
+      "en": "Tech Lead"
+    },
+    "name": {
+      "ja": "橋本尚儒 / Takahito Hashimoto",
+      "en": "Takahito Hashimoto"
+    }
   },
   "about": [
     {
-      "ja": "キャリアの始まりは、自社 BI ツールの UI 設計からフロントエンド、サーバサイドまでを一人で担当したこと。設計から実装まで通しでやり切るスタイルは、ここが原点になっています。",
-      "en": "My career began by owning everything from UI design to frontend and backend implementation for an in-house BI tool — the origin of my end-to-end approach to building software."
+      "ja": "クラウドファンディングプラットフォーム READYFOR のテックリード。P&E 約 15 名の開発組織で、機能設計からアーキテクチャ、コードレビュー、開発体制づくりまでプロダクト全体を横断してリードしています。",
+      "en": "I'm a tech lead at READYFOR, a crowdfunding platform in Japan. In a product & engineering organization of about 15 people, I lead across the product — from feature design and architecture to code review and how the team builds."
     },
     {
-      "ja": "その後は複数の toC サービス開発に従事し、モバイルアプリの TypeScript・ReactNative への全面移行をリード。技術的負債を計画的に解消しながら機能を伸ばす経験を積みました。",
-      "en": "I then worked across several consumer-facing services, leading a mobile app's migration to TypeScript and React Native — experience in resolving technical debt deliberately while still shipping new features."
+      "ja": "近年は AI コーディングエージェントを前提にした開発フローづくりに力を入れています。Slack や issue からエージェントを起動する社内基盤や、開発規約をスキルとして配布する Claude Code プラグインを自ら作り、チームの開発生産性を仕組みで高めることに関心があります。",
+      "en": "Lately I've been focused on building a development workflow around AI coding agents. I built an internal platform that launches agents from Slack and GitHub issues, and a Claude Code plugin that distributes our coding guidelines as skills. I'm drawn to raising the team's productivity through systems rather than individual effort."
     },
     {
-      "ja": "現在はクラウドファンディングプラットフォームでテックリードを務め、機能設計からアーキテクチャ、開発体制づくりまでプロダクト全体を横断してリード。近年は AI コーディングエージェントの活用にも力を入れ、仕組みを作ってチームの開発生産性を高めることに関心があります。",
-      "en": "Now, as tech lead at a crowdfunding platform, I lead across the product — from feature design and architecture to how the team builds. More recently I've been focused on adopting AI coding agents, and I'm drawn to building systems that raise the team's development productivity."
+      "ja": "キャリアの原点は、自社 BI ツールの UI 設計からフロントエンド、サーバサイドまでを一人で担当したこと。Web・モバイルを通して、設計から実装、運用まで通しでやり切るスタイルを続けています。",
+      "en": "My career began by owning everything from UI design to frontend and backend implementation for an in-house BI tool. Across web and mobile since then, I've kept an end-to-end approach — from design through implementation and operation."
     }
   ],
   "stack": [
-    { "category": "Backend", "items": ["Ruby / Ruby on Rails", "Java"] },
-    { "category": "Frontend", "items": ["TypeScript / JavaScript", "React / Next.js"] },
-    { "category": "Infra & Data", "items": ["AWS / GCP", "MySQL", "CI/CD", "Microfrontend"] }
+    {
+      "category": "Backend",
+      "items": [
+        "Ruby / Ruby on Rails"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "TypeScript / JavaScript",
+        "React / Next.js",
+        "React Native"
+      ]
+    },
+    {
+      "category": "Infra & Data",
+      "items": [
+        "AWS / GCP",
+        "MySQL",
+        "CI/CD",
+        "Microfrontend"
+      ]
+    },
+    {
+      "category": "AI",
+      "items": [
+        "Claude Code",
+        "AI Coding Agents",
+        "MCP"
+      ]
+    }
   ],
   "experience": [
     {
-      "org": { "ja": "READYFOR株式会社", "en": "READYFOR, Inc." },
-      "period": "2021.03 — Present",
-      "role": { "ja": "テックリード", "en": "Tech Lead" },
-      "description": {
-        "ja": "支援者管理機能や実行者管理画面のフルリニューアルなど、フロントエンドからバックエンドまで一貫して設計・開発を担当。マイクロフロントエンド化やスキーマ駆動のコード自動生成基盤の構築、デザインシステムの整備を推進してきました。近年は社内のAIエージェント開発環境の整備にも取り組み、コーディングエージェントを活用した開発フローの構築やナレッジ整備を通じて、チーム全体の開発生産性向上をリードしています。",
-        "en": "Led end-to-end design and development across the supporter management feature and a full renewal of the project-owner dashboard, spanning frontend to backend. Drove the adoption of a microfrontend architecture, built a schema-driven code generation pipeline, and helped shape the design system. More recently, I've been building out our internal AI coding agent environment — improving workflows and shared knowledge to raise development productivity across the team."
+      "org": {
+        "ja": "READYFOR株式会社",
+        "en": "READYFOR, Inc."
       },
-      "techStack": "Ruby on Rails, TypeScript, React / Next.js, Qiankun, AWS, MySQL"
+      "period": "2021.03 — Present",
+      "role": {
+        "ja": "テックリード（2024.01 — ）/ エンジニア",
+        "en": "Tech Lead (2024.01 — ) / Software Engineer"
+      },
+      "description": {
+        "ja": "2024 年にテックリードに就任。社内 AI エージェント基盤や Claude Code プラグインをゼロから開発し、AI コーディングエージェントを活用した開発フローへの移行を推進しています。CI の高速化（権限まわりのテストを 24 分から 3.5 分に短縮）、メルマガ配信管理ツールの新規立ち上げ、マイクロフロントエンドの monorepo 統合や Rails 7.2 への移行など、基盤の刷新も手がけてきました。それ以前は、支援者管理機能や実行者管理画面のフルリニューアルを担当し、マイクロフロントエンド化、スキーマ駆動のコード自動生成基盤、デザインシステムの整備を推進しました。",
+        "en": "Promoted to tech lead in 2024. I built an internal AI agent platform and a Claude Code plugin from scratch, and have been moving the team to a development workflow built around AI coding agents. I've also led platform work such as speeding up CI (cutting authorization tests from 24 to 3.5 minutes), launching a new newsletter management tool, consolidating microfrontends into a monorepo, and upgrading to Rails 7.2. Before that, I led the full renewal of the supporter management feature and the project-owner dashboard, driving the microfrontend architecture, a schema-driven code generation pipeline, and the design system."
+      },
+      "techStack": "Ruby on Rails, TypeScript, React / Next.js, AWS, GCP, MySQL, Claude Code"
     },
     {
-      "org": { "ja": "株式会社ジラフ", "en": "Jiraffe, Inc." },
+      "org": {
+        "ja": "株式会社ジラフ",
+        "en": "Jiraffe, Inc."
+      },
       "period": "2019.03 — 2021.02",
-      "role": { "ja": "エンジニア", "en": "Engineer" },
+      "role": {
+        "ja": "エンジニア",
+        "en": "Engineer"
+      },
       "description": {
         "ja": "買取比較サービス「ヒカカク!」では会員向け機能やLINE査定申込・チャット機能を開発し、ユーザーの再査定率向上に貢献。「Peing -質問箱-」ではプロフィール機能やグループチャット機能を企画から実装まで担当し、モバイルアプリはJavaScriptからTypeScript、VueNativeからReactNativeへ全面移行しました。",
         "en": "Built member-facing features, a LINE-based appraisal request flow, and chat functionality for the resale comparison service \"Hikakaku!\", contributing to a higher re-appraisal rate. For \"Peing (Question Box),\" I planned and implemented profile and group chat features, and migrated the mobile app from JavaScript to TypeScript and from VueNative to React Native."
@@ -53,9 +102,15 @@
       "techStack": "Ruby on Rails, React / Vue, React Native, GCP, MySQL"
     },
     {
-      "org": { "ja": "株式会社ユニリタ", "en": "Unirita, Inc." },
+      "org": {
+        "ja": "株式会社ユニリタ",
+        "en": "Unirita, Inc."
+      },
       "period": "2017.04 — 2019.01",
-      "role": { "ja": "エンジニア", "en": "Engineer" },
+      "role": {
+        "ja": "エンジニア",
+        "en": "Engineer"
+      },
       "description": {
         "ja": "自社BIツールの新バージョンではUI・機能設計からフロントエンド、サーバサイドの実装までを単独で担当。約5万行に及ぶ旧製品の画面テスト改修では共通プログラムの導入を提案し、全体の7割を改修しました。新卒採用や社内プログラミングコンテストの運営にも携わっています。",
         "en": "Solely responsible for UI and feature design through frontend and backend implementation on a new version of an in-house BI tool. For a screen-test overhaul spanning roughly 50,000 lines of legacy code, I proposed a shared utility layer and personally handled about 70% of the rewrite. Also involved in new-grad recruiting and running internal programming contests."
