@@ -73,7 +73,9 @@ function applyLang(lang) {
   document.documentElement.lang = lang;
   document.title = content.meta.title[lang];
 
-  document.querySelector("#role").textContent = content.hero.role[lang];
+  document.querySelector("#role").innerHTML = content.hero.role[lang]
+    .map((r) => `<span class="inline-block whitespace-nowrap">${r}</span>`)
+    .join(" / ");
   document.querySelector("#name-en").textContent = content.hero.name[lang];
 
   renderAbout(lang);

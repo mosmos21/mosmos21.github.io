@@ -13,8 +13,14 @@
   },
   "hero": {
     "role": {
-      "ja": "テックリード",
-      "en": "Tech Lead"
+      "ja": [
+        "テックリード",
+        "プロダクトエンジニア"
+      ],
+      "en": [
+        "Tech Lead",
+        "Product Engineer"
+      ]
     },
     "name": {
       "ja": "橋本尚儒 / Takahito Hashimoto",
