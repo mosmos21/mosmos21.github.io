@@ -37,8 +37,8 @@
       "en": "Lately I've been focused on building a development workflow around AI coding agents. I built an internal platform that launches agents from Slack and GitHub issues, and a Claude Code plugin that distributes our coding guidelines as skills. I'm drawn to raising the team's productivity through systems rather than individual effort."
     },
     {
-      "ja": "キャリアの原点は、自社 BI ツールの UI 設計からフロントエンド、サーバサイドまでを一人で担当したこと。Web・モバイルを通して、設計から実装、運用まで通しでやり切るスタイルを続けています。",
-      "en": "My career began by owning everything from UI design to frontend and backend implementation for an in-house BI tool. Across web and mobile since then, I've kept an end-to-end approach — from design through implementation and operation."
+      "ja": "キャリアの原点は、自社 BI ツールの UI 設計からフロントエンド、サーバサイドまでを一人で担当したこと。以来、設計から実装、運用まで通しでやり切るスタイルを続けています。",
+      "en": "My career began by owning everything from UI design to frontend and backend implementation for an in-house BI tool. Since then, I've kept an end-to-end approach — from design through implementation and operation."
     }
   ],
   "stack": [
@@ -52,8 +52,7 @@
       "category": "Frontend",
       "items": [
         "TypeScript / JavaScript",
-        "React / Next.js",
-        "React Native"
+        "React / Next.js"
       ]
     },
     {
